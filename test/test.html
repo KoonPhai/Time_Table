@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>แบบฟอร์ม</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+    <div class="container">
+    <div class="panel panel panel-primary">
+      <div class="panel-heading"> <p style="font-size: 26px">ส่วนที่ 1 : ข้อมูลส่วนตัว</p></div>
+      <div class="panel-body"></div>
+      <form name="form1" method="post" action="register2.html">
+        <label>ชื่อ - นามสกุล :</label>
+        <input type="text" name="name1" size="65">
+        <label>ชื่อเล่น :</label>
+        <input type="text" name="name2" size="25"><br><br>
+        <label>วัน/เดือน/ปีเกิด</label>
+        <select name="day">
+        	<option value="1">1</option>
+        	<option value="2">2</option>
+        	<option value="3">3</option>
+        	<option value="4">4</option>
+        	<option value="5">5</option>
+        	<option value="6">6</option>
+        	<option value="7">7</option>
+        	<option value="8">8</option>
+        	<option value="9">9</option>
+        	<option value="10">10</option>
+        	<option value="11">11</option>
+        	<option value="12">12</option>
+        	<option value="13">13</option>
+        	<option value="14">14</option>
+        	<option value="15">15</option>
+        	<option value="16">16</option>
+        	<option value="17">17</option>
+        	<option value="18">18</option>
+        	<option value="19">19</option>
+        	<option value="20">20</option>
+        	<option value="21">21</option>
+        	<option value="22">23</option>
+        	<option value="24">24</option>
+        	<option value="25">25</option>
+        	<option value="26">26</option>
+        	<option value="27">27</option>
+        	<option value="28">28</option>
+        	<option value="29">29</option>
+        	<option value="30">30</option>
+        	<option value="31">31</option>
+        </select>
+        <select name="Month">
+        	<option value="มกราคม">มกราคม</option>
+        	<option value="กุมภาพันธ์">กุมภาพันธ์</option>
+        	<option value=">มีนาคม">มีนาคม</option>
+        	<option value="เมษายน">เมษายน</option>
+        	<option value="พฤษภาคม">พฤษภาคม</option>
+        	<option value="มิถุนายน">มิถุนายน</option>
+        	<option value="กรกฎาคม">กรกฎาคม</option>
+        	<option value="สิงหาคม">สิงหาคม</option>
+        	<option value="กันยายน">กันยายน</option>
+        	<option value="ตุลาคม">ตุลาคม</option>
+        	<option value="พฤศจิกายน">พฤศจิกายน</option>
+        	<option value="ธันวาคม">ธันวาคม</option>
+        </select>
+        <select name="year">
+        	<option value="2525">2525</option>
+            <option value="2526">2526</option>
+            <option value="2527">2527</option>
+            <option value="2258">2528</option>
+            <option value="2529">2529</option>
+            <option value="2530">2530</option>
+            <option value="2531">2531</option>
+            <option value="2532">2532</option>
+            <option value="2533">2533</option>
+            <option value="2534">2534</option>
+            <option value="2535">2535</option>
+            <option value="2536">2536</option>
+            <option value="2537">2537</option>
+            <option value="2538">2538</option>
+            <option value="2539">2539</option>
+            <option value="2540">2540</option>
+            <option value="2541">2541</option>
+            <option value="2542">2542</option>
+            <option value="2543">2543</option>
+            <option value="2544">2544</option>
+            <option value="2545">2545</option>
+            <option value="2546">2546</option>
+            <option value="2547">2547</option>
+            <option value="2548">2548</option>
+            <option value="2549">2549</option>
+            <option value="2550">2550</option>
+            <option value="2551">2551</option>
+            <option value="2552">2552</option>
+            <option value="2553">2553</option>
+            <option value="2554">2554</option>
+            <option value="2555">2555</option>
+            <option value="2556">2556</option>
+            <option value="2557">2557</option>
+            <option value="2558">2558</option>
+            <option value="2559">2559</option>
+            <option value="2560">2560</option>
+            <option value="2561">2561</option>
+            <option value="2562">2562</option>
+            <option value="2563">2563</option>
+        </select>
+        <label>เพศ :</label>
+        <input type="radio" name="gender" value="ชาย">
+        <label>ชาย</label>
+        <input type="radio" name="gender" value="หญิง">
+        <label>หญิง</label>
+        <label>อายุ</label>
+        <input type="text" name="old1" size="2" maxlength="2">
+        <label>ปี</label>
+        <label>ศาสนา :</label>
+        <input type="text" name="sassana" size="20"><br><br>
+        <label>เลขบัตรประชาชน :</label>
+        <input type="text" name="num" size="60">
+        <label>ที่อยู่ปัจจุบัน</label>
+        <label>เลขที่ :</label>
+        <input type="text" name="num2" size="10">
+        <label>หมู่ที่ :</label>
+        <input type="text" name="num3" size="5"><br><br>
+        <label>ตรอก/ซอย :</label>
+        <input type="text" name="num4" size="20">
+        <label>ถนน :</label>
+        <input type="text" name="num5" size="20">
+        <label>แขวง :</label>
+        <input type="text" name="num6" size="20">
+        <label>เขต :</label>
+        <input type="text" name="num7" size="20"><br><br>
+        <label>จังหวัด :</label>
+        <select name="contry">
+            <option value="จังหวัดเชียงราย">จังหวัดเชียงราย</option>
+            <option value="จังหวัดเชียงใหม่">จังหวัดเชียงใหม่</option>
+            <option value="จังหวัดน่าน">จังหวัดน่าน</option>
+            <option value="จังหวัดพะเยา">จังหวัดพะเยา</option>
+            <option value="จังหวัดแพร่">จังหวัดแพร่</option>
+            <option value="จังหวัดแม่ฮ่องสอน">จังหวัดแม่ฮ่องสอน</option>
+            <option value="จังหวัดลำปาง">จังหวัดลำปาง</option>
+            <option value="จังหวัดลำพูน">จังหวัดลำพูน</option>
+            <option value="จังหวัดอุตรดิตถ์">จังหวัดอุตรดิตถ์</option>
+            <option value="จังหวัดกาฬสินธุ์">จังหวัดกาฬสินธุ์</option>
+            <option value="จังหวัดขอนแก่น">จังหวัดขอนแก่น</option>
+            <option value="จังหวัดชัยภูมิ">จังหวัดชัยภูมิ</option>
+            <option value="จังหวัดนครพนม">จังหวัดนครพนม</option>
+            <option value="จังหวัดนครราชสีมา">จังหวัดนครราชสีมา</option>
+            <option value="จังหวัดบึงกาฬ">จังหวัดบึงกาฬ</option>
+            <option value="หวัดบุรีรัมย์">หวัดบุรีรัมย์</option>
+            <option value="จังหวัดมหาสารคาม">จังหวัดมหาสารคาม</option>
+            <option value="จังหวัดมุกดาหาร">จังหวัดมุกดาหาร</option>
+            <option value="จังหวัดยโสธร">จังหวัดยโสธร</option>
+            <option value="จังหวัดร้อยเอ็ด">จังหวัดร้อยเอ็ด</option>
+            <option value="จังหวัดเลย">จังหวัดเลย</option>
+            <option value="จังหวัดสกลนคร">จังหวัดสกลนคร</option>
+            <option value="จังหวัดสุรินทร์">จังหวัดสุรินทร์</option>
+            <option value="จังหวัดศรีสะเกษ">จังหวัดศรีสะเกษ</option>
+            <option value="จังหวัดหนองคาย">จังหวัดหนองคาย</option>
+            <option value="จังหวัดหนองบัวลำภู">จังหวัดหนองบัวลำภู</option>
+            <option value="จังหวัดอุดรธานี">จังหวัดอุดรธานี</option>
+            <option value="จังหวัดอุบลราชธานี">จังหวัดอุบลราชธานี</option>
+            <option value="จังหวัดอำนาจเจริญ">จังหวัดอำนาจเจริญ</option>
+            <option value="จังหวัดกำแพงเพชร">จังหวัดกำแพงเพชร</option>
+            <option value="จังหวัดชัยนาท">จังหวัดชัยนาท</option>
+            <option value="จังหวัดนครนายก">จังหวัดนครนายก</option>
+            <option value="จังหวัดนครปฐม">จังหวัดนครปฐม</option>
+            <option value="จังหวัดนครสวรรค์">จังหวัดนครสวรรค์</option>
+            <option value="จังหวัดนนทบุรี">จังหวัดนนทบุรี</option>
+            <option value="จังหวัดปทุมธานี">จังหวัดปทุมธานี</option>
+            <option value="จังหวัดพระนครศรีอยุธยา">จังหวัดพระนครศรีอยุธยา</option>
+            <option value="จังหวัดพิจิตร">จังหวัดพิจิตร</option>
+            <option value="จังหวัดพิษณุโลก">จังหวัดพิษณุโลก</option>
+            <option value="จังหวัดเพชรบูรณ์">จังหวัดเพชรบูรณ์</option>
+            <option value="จังหวัดลพบุรี">จังหวัดลพบุรี</option>
+            <option value="จังหวัดสมุทรปราการ">จังหวัดสมุทรปราการ</option>
+            <option value="จังหวัดสมุทรสงคราม">จังหวัดสมุทรสงคราม</option>
+            <option value="จังหวัดสมุทรสาคร">จังหวัดสมุทรสาคร</option>
+            <option value="จังหวัดสิงห์บุรี">จังหวัดสิงห์บุรี</option>
+            <option value="จังหวัดสุโขทัย">จังหวัดสุโขทัย</option>
+            <option value="จังหวัดสุพรรณบุรี">จังหวัดสุพรรณบุรี</option>
+            <option value="จังหวัดสระบุรี">จังหวัดสระบุรี</option>
+            <option value="จังหวัดอ่างทอง">จังหวัดอ่างทอง</option>
+            <option value="จังหวัดอุทัยธานี">จังหวัดอุทัยธานี</option>
+            <option value="จังหวัดจันทบุรี">จังหวัดจันทบุรี</option>
+            <option value="จังหวัดฉะเชิงเทรา">จังหวัดฉะเชิงเทรา</option>
+            <option value="จังหวัดชลบุรี">จังหวัดชลบุรี</option>
+            <option value="จังหวัดตราด">จังหวัดตราด</option>
+            <option value="จังหวัดปราจีนบุรี">จังหวัดปราจีนบุรี</option>
+            <option value="จังหวัดระยอง">จังหวัดระยอง</option>
+            <option value="จังหวัดสระแก้ว">จังหวัดสระแก้ว</option>
+            <option value="จังหวัดกาญจนบุรี">จังหวัดกาญจนบุรี</option>
+            <option value="จังหวัดตาก">จังหวัดตาก</option>
+            <option value="จังหวัดประจวบคีรีขันธ์">จังหวัดประจวบคีรีขันธ์</option>
+            <option value="จังหวัดเพชรบุรี">จังหวัดเพชรบุรี</option>
+            <option value="จังหวัดราชบุรี">จังหวัดราชบุรี</option>
+            <option value="จังหวัดกระบี่">จังหวัดกระบี่</option>
+            <option value="จังหวัดชุมพร">จังหวัดชุมพร</option>
+            <option value="จังหวัดตรัง">จังหวัดตรัง</option>
+            <option value="จังหวัดนครศรีธรรมราช">จังหวัดนครศรีธรรมราช</option>
+            <option value="จังหวัดนราธิวาส">จังหวัดนราธิวาส</option>
+            <option value="จังหวัดปัตตานี">จังหวัดปัตตานี</option>
+            <option value="จังหวัดพังงา">จังหวัดพังงา</option>
+            <option value="จังหวัดพัทลุง">จังหวัดพัทลุง</option>
+            <option value="จังหวัดภูเก็ต">จังหวัดภูเก็ต</option>
+            <option value="จังหวัดระนอง">จังหวัดระนอง</option>
+            <option value="จังหวัดสตูล">จังหวัดสตูล</option>
+            <option value="จังหวัดสงขลา">จังหวัดสงขลา</option>
+            <option value="จังหวัดสุราษฎร์ธานี">จังหวัดสุราษฎร์ธานี</option>
+            <option value="จังหวัดยะลา">จังหวัดยะลา</option>
+        </select><br><br>
+        <label>โทรศัพท์มือถือ :</label>
+        <input type="text" name="mobile" size="20" maxlength="10">
+        <label>โทรศัพท์บ้าน :</label>
+        <input type="text" name="phone" size="20" maxlength="9">
+        <label>E-mail :</label>
+        <input type="E-mail" name="mail" size="30"><br><br>
+        <label>Lind ID :</label>
+        <input type="text" name="lind" size="30">
+        <label>Facebook :</label>
+        <input type="text" name="face" size="30"><br><br><br>
+        <label>ชื่อผู้ติดต่อฉุกเฉิน :</label>
+        <input type="text" name="emer" size="40" maxlength="10">
+        <label>ความสัมพันธ์ :</label>
+        <input type="text" name="relation" size="40"><br><br>
+        <label>เบอร์ติดต่อ :</label>
+        <input type="text" name="phone1" size="30" maxlength="10">
+    </div>
+    </div>
+     <div class="container">
+    <div class="panel panel panel-primary">
+      <div class="panel-heading"> <p style="font-size: 26px">ส่วนที่ 2 : ข้อมูลด้านการศึกษา</p></div>
+      <div class="panel-body"></div>
+      <form name="form2" method="post" action="register2.html">
+        <label>ชื่อสถานศึกษา :</label>
+        <input type="text" name="name4" size="50">
+        <label>ระดับการศึกษา :</label>
+        <input type="text" name="lv1" size="5"><br><br>
+        <label>สาขาวิชา :</label>
+        <select name="class1">
+            <option value="สาขาวิชาช่างยนต์">สาขาวิชาช่างยนต์</option>
+            <option value="สาขาวิชาช่างกลโรงงาน">สาขาวิชาช่างกลโรงงาน</option>
+            <option value="สาขาวิชาช่างเชื่อมโลหะ">สาขาวิชาช่างเชื่อมโลหะ</option>
+            <option value="สาขาวิชาช่างซ่อมบำรุง">สาขาวิชาช่างซ่อมบำรุง</option>
+            <option value="สาขาวิชาช่างไฟฟ้ากำลัง">สาขาวิชาช่างไฟฟ้ากำลัง</option>
+            <option value="สาขาวิชาเครื่องทำความเย็นและปรับอากาศ">สาขาวิชาเครื่องทำความเย็นและปรับอากาศ</option>
+            <option value="สาขาวิชาช่างอิเล็กทรอนิกส์">สาขาวิชาช่างอิเล็กทรอนิกส์</option>
+            <option value="สาขาวิชาช่างกอสร้าง">สาขาวิชาช่างกอสร้าง</option>
+            <option value="สาขาวิชาสถาปัตยกรรม">สาขาวิชาสถาปัตยกรรม</option>
+            <option value="สาขาวิยาโยธา">สาขาวิยาโยธา</option>
+            <option value="สาขาวิชาการบัญชี">สาขาวิชาการบัญชี</option>
+            <option value="สาขาวิชาการตลาด">สาขาวิชาการตลาด</option>
+            <option value="สาขาวิชาเลขานุการ">สาขาวิชาเลขานุการ</option>
+            <option value="สาขาวิชาคอมพิวเตอร์ธุรกิจ">สาขาวิชาคอมพิวเตอร์ธุรกิจ</option>
+            <option value="สาขาวิชาเทคโนโลยีสารสนเทศ">สาขาวิชาเทคโนโลยีสารสนเทศ</option>
+            <option value="สาขาเทคนิคเครื่องกล(ช่างยนต์)">สาขาเทคนิคเครื่องกล(ช่างยนต์)</option>
+            <option value="สาขาวิชาเทคนิคการผลิต(ช่างกลโรงงาน)">สาขาวิชาเทคนิคการผลิต(ช่างกลโรงงาน)</option>
+            <option value="สาขาวิชาเทคนิคโลหะ">สาขาวิชาเทคนิคโลหะ</option>
+            <option value="สาขาวิชาเทคนิคอุสาหกรรม">สาขาวิชาเทคนิคอุสาหกรรม</option>
+            <option value="สาขาวิชาไฟฟ้า">สาขาวิชาไฟฟ้า</option>
+            <option value="สาขาวิชาเทคนิคเครื่องทำความเย็นและปรับอากาศ">สาขาวิชาเทคนิคเครื่องทำความเย็นและปรับอากาศ</option>
+            <option value="สาขาวิชาเทคนิคพลังงาน">สาขาวิชาเทคนิคพลังงาน</option>
+            <option value="สาขาวิชาเทคนิคสถาปัตยกรรม">สาขาวิชาเทคนิคสถาปัตยกรรม</option>
+            <option value="สาขาวิชาการจัดการสำนักงาน">สาขาวิชาการจัดการสำนักงาน</option>
+        </select>
+        <label>ชั้นปีที่ :</label>
+         <input type="radio" name="gender" value="ปวช">
+        <label>ปวช.</label>
+        <input type="radio" name="gender" value="ปวส.">
+        <label>ปวส.</label>
+        <input type="radio" name="gender" value="ป.ตรี">
+        <label>ป.ตรี</label><br><br>
+        <label>เกรดเฉลี่ยสะสม :</label>
+        <input type="text" name="calss2" size="5" maxlength="4"><br><br><br>
+        <label>ชื่ออาจารย์ผู้ประสานงาน ( อาจารย์ที่ปรึกษาหรืออาจารย์แนะแนว )</label><br>
+        <input type="text" name="name6" class="form-control"><br><br>
+        <label>เบอร์ติดต่อ :</label>
+        <input type="text" name="phone2" size="50" maxlength="10">
+        <label>โทรศัพท์มือถือ :</label>
+        <input type="text" name="phone3" size="50" maxlength="10"><br><br><br>
+        <label>กิจกรรมระหว่างศึกษา</label><br><br>
+        <div class="form-group">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </div>
+
+     <div class="panel panel panel-primary">
+        <div class="panel-heading"> <p style="font-size: 26px">ส่วนที่ 3 : ข้อมูลด้านทักษะต่างๆ</p></div>
+        <div class="panel-body"></div>
+        <form name="form3" method="post" action="register2.html">
+            <label>ทักษะ</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>ดีมาก</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>ดี</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>ปานกลาง</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>พอใช้</label><br><br>
+            <label>ภาษาษาอังกฤษ :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="eng">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="eng">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="eng">
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="eng"><br><br>
+             <label>ภาษาอื่นๆ.............</label>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="etc">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="etc">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="etc">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="etc"><br><br>
+            <label>คอมพิวเตอร์ ( โปรแกรม ) :</label>
+            <input type="text" name="program" size="130"><br><br>
+            <label>ความสามารถอื่นๆ........</label>
+            <input type="text" name="hopbit" size="120">
+        </form>
+    </div>
+    <div class="panel panel panel-primary">
+        <div class="panel-heading"> <p style="font-size: 26px">ส่วนที่ 4 : ข้อมูลแนะนำตัวเอง</p></div>
+        <div class="panel-body"></div>
+        <form name="form4" method="post" action="register2.html">
+        <label>แนะนำตัวเองให้ ที เอช ซี ได้รู้จักมากขึ้น</label>
+        <div class="form-group">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+        </form>
+    </div>
+</div>
+        <div class="panel panel panel-primary">
+        <div class="panel-heading"> <p style="font-size: 26px">ส่วนที่ 5 : ข้อมูลสอบถามเพิ่มเติม</p></div>
+        <div class="panel-body"></div>
+        <form name="form5" method="post" action="register2.html">
+        <label>คุณทราบข่าวเกี่ยวกับการสมัครโครงการนักศึกษาฝึกงานของ ที เอช ซี สถาบันอนุญาโตตุลาการจากช่องทางใด</label><br><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="เว็บไซต์">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label>เว็บไซต์ THAC.co.th</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="checkbox" name="Facebook1">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label>Facebook THAC</label><br><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="checkbox" name="กรรมการ">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label>กรรมการประชาสัมพันธ์มหาวิทยาลัย</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+         <input type="checkbox" name="รุ่นพี่">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>รุ่นพี่หรือจากเพื่อน</label><br><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="checkbox" name="อื่น">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>อื่นๆ ระบุ</label><br><br>
+        <input type="text" name="อื่น" class="form-control">
+        </form>
+    </div>
+    <button type="button" class="btn btn-success">Submit</button>
+    <button type="button" class="btn btn-danger">Refresh</button><br><br>
+
+</body>
+</html>
